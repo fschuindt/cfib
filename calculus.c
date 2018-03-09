@@ -9,21 +9,21 @@
 
 #include <math.h>
 
-static const float GOLDEN_N = 2.2360679775;
+static const float GOLDEN_N = 2.23606797749979;
 
-long double XOf(long int n)
+float XOf(int n)
 {
 	float numerator = GOLDEN_N + 1;
 	return powl((numerator / 2), n);
 }
 
-long double YOf(long int n)
+float YOf(int n)
 {
 	float numerator = GOLDEN_N - 1;
 	return powl((numerator / 2), n);
 }
 
-long double FibOf(long int n)
+float FibOf(int n)
 {
 	return (XOf(n) - YOf(n)) / 2;
 }
