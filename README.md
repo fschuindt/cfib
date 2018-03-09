@@ -11,13 +11,9 @@ $ gcc fib.c -o cfib
 ```
 
 ### Running
-**It's a wrong result!**
 ```
 $ cfib 8
-23.478714
+21.000000000000005
 ```
 
 A `--help` option is also available.
-
-## To Do
-+ Fix calculation, it's probably related to its `long doubles`.
