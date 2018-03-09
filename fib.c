@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 	if (strncmp(argv[1], "--help", 8) == 0)
 	{
 		printf("CFib v0.1.0\n\nUsage: cfib 8\n23.478714\n");
-		exit(1);
+		exit(0);
 	}
 
 	int term = atoi(argv[1]);
