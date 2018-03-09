@@ -28,8 +28,8 @@ int main(int argc, char *argv[])
 	}
 
 	int term = atoi(argv[1]);
-	float evaluation = FibOf(term);
+	long double evaluation = FibOf(term);
 
-	printf("%.50f\n", evaluation);
+	printf("%.15Lf\n", evaluation);
 	return 0;
 }
