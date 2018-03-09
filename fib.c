@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 
 	if (strncmp(argv[1], "--help", 8) == 0)
 	{
-		printf("CFib v0.1.0\n\nUsage: cfib 8\n23.478714\n");
+		printf("CFib v0.1.0\n\nUsage: cfib 8\n21.000000000000005\n");
 		exit(0);
 	}
 
