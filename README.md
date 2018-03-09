@@ -3,6 +3,8 @@
 
 To be used in further computation research and benchmark.
 
+See: https://github.com/fschuindt/archimedes
+
 ## Usage
 
 ### Compiling
